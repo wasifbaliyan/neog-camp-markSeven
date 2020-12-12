@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./icon.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="./style.css">
     <title>Klingon Translator</title>
 </head>
-<body>
-    
+<body class="container">
+    <header class="header">
+        <nav class="nav">
+            <h1 class="nav-heading">Klingon Translator</h1>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="main-section">
+            <textarea type="text" placeholder="Enter english text" class="textarea"></textarea>
+            <button class="btn">Tranlate to klingon</button>
+            <div class="translated-text"></div>
+        </section>
+    </main>
+    <footer class="footer">
+       <div> 
+        <div class="footer-heading">About</div>
+       <p class="footer-text">The Klingon language is the constructed language spoken by the fictional Klingons in the Star Trek universe.</p>
+    </div>
+    </footer>
+    <script src="./app.js"></script>
 </body>
 </html>
